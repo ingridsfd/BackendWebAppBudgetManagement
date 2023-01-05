@@ -8,4 +8,6 @@ app.use(express.json());
 //parsear x-www-from-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
+//app.use("/api/pollos-hermanos/product", productRouter);
+
 export default app;
